@@ -1,11 +1,12 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { useDispatch, useSelector } from "react-redux";
 import NavBar from "../Components/Navigaiton-Bar/NavBar";
 import Card from "../UI/Card";
 import { cartActions } from "../Store/CartSlice";
 import Cart from "../Components/Cart/Cart";
+import { AiOutlineClose } from "react-icons/ai";
 
 const ProductDetails = (props) => {
   const dispatch = useDispatch();
@@ -28,7 +29,14 @@ const ProductDetails = (props) => {
       <AnimatePresence>{open && <Cart />}</AnimatePresence>
       <NavBar />
       <Card>
-        <div className="flex items-center justify-center flex-wrap">
+        <div className="flex items-center justify-center flex-wrap relative">
+          <Link to="/">
+            <AiOutlineClose
+              size="40px"
+              color="red"
+              className="absolute right-0 top-6"
+            />
+          </Link>
           <div className="flex items-center w-full h-[100vh] ">
             <div className="m-10">
               <img
