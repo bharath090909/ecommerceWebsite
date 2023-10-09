@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/https//:bharath090909.github.io/ecommerceWebsite/static/css/main.90697708.css",
+    "main.js": "/https//:bharath090909.github.io/ecommerceWebsite/static/js/main.be3a3155.js",
+    "static/media/Sprinkle.svg": "/https//:bharath090909.github.io/ecommerceWebsite/static/media/Sprinkle.9fc50bb0fbc1dde51911.svg",
+    "index.html": "/https//:bharath090909.github.io/ecommerceWebsite/index.html",
+    "main.90697708.css.map": "/https//:bharath090909.github.io/ecommerceWebsite/static/css/main.90697708.css.map",
+    "main.be3a3155.js.map": "/https//:bharath090909.github.io/ecommerceWebsite/static/js/main.be3a3155.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90697708.css",
+    "static/js/main.be3a3155.js"
+  ]
+}
