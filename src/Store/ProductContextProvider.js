@@ -22,7 +22,7 @@ const ProductContextProvider = (props) => {
     });
     setIsLoading(false);
   }, []);
-  console.log(Products);
+
   return (
     <ProductContext.Provider
       value={{ isLoading: isLoading, products: Products }}
